@@ -15,3 +15,12 @@ console.log(student.ime, student.prezime, student.brojIndexa);
     } else {
         console.log('Ne moze da polaze diplomski');
     }
+
+    let newStudent = ['ime', 'Markovic', 'godine', 'brojIndexa', 'godinaUpisa'];
+    console.log(newStudent);
+    newStudent.push('Prosek');
+    console.log(newStudent);
+    newStudent.pop();
+    console.log(newStudent);
+
+    console.log(student.ime, newStudent[1]);
