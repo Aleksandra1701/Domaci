@@ -16,6 +16,7 @@ console.log(student.ime, student.prezime, student.brojIndexa);
         console.log('Ne moze da polaze diplomski');
     }
 
+
     let newStudent = ['ime', 'Markovic', 'godine', 'brojIndexa', 'godinaUpisa'];
     console.log(newStudent);
     newStudent.push('Prosek');
@@ -24,3 +25,19 @@ console.log(student.ime, student.prezime, student.brojIndexa);
     console.log(newStudent);
 
     console.log(student.ime, newStudent[1]);
+
+    let sport = ['odbojka', 'fudbal', 'tenis', 'kosarka', 'rukomet']; 
+    console.log(student.ime, newStudent[1], 'voli' + " " + sport[2]);
+    console.log(student.ime, student.prezime, 'voli' + " " + sport[4]);
+
+    function MySport(student, newStudent) {
+        if (student.prezime != Urosevic && newStudent.sport !=tenis) {
+                return true;
+        } else {
+            console.log("Bojan Markovic voli tenis");
+        }
+    }  
+       
+    
+    
+  
